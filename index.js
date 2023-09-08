@@ -30,7 +30,7 @@ function updateCurrentTime() {
       "GMT+0100 (West Africa Standard Time)",
       "Good Afternoon! "
     );
-  } else if (getHour >= 12 && getHour <= 18) {
+  } else if (getHour >= 12 && getHour <= 17) {
     daytimeIcon.innerHTML = daytime[1];
     daytimeCard.classList.add("noon");
     timeElement.innerHTML = formatTime.replace(
