@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Eberechi-uche</title>
+  </head>
+  <body>
+    <main class="center">
+      <section class="flex maxWidth box">
+        <header>
+          <img
+            class="img-small"
+            data-testid="slackDisplayImage"
+            src="images/938768E0-1F26-4ADC-BAD6-85356781A681_1_105_c.jpeg"
+            alt="Eberechi uche"
+          />
+          <h1 data-testid="slackUserName">Eberechi uche</h1>
+        </header>
+        <p data-testid="myTrack">Frontend</p>
+      </section>
+      <section class="box maxWidth" id="daytime-card">
+        <div class="flex-end">
+          <p class="icon" id="daytime-icon">&#x2600;&#xFE0F;</p>
+        </div>
+        <div class="pt-1 pb">
+          <p data-testid="currentUTCTime" id="time" class="large-800">time</p>
+          <p
+            data-testid="currentDayOfTheWeek"
+            class="large-text muted-text"
+            id="day"
+          ></p>
+        </div>
+      </section>
+      <a
+        href="https://github.com/Eberechi-uche"
+        target="_blank"
+        data-testid="githubURL"
+        class="box maxWidth pointer"
+      >
+        <section>
+          <div data-testid="githubURL" class="flex-end icon">&#x1F517;</div>
+          <p class="large-text">Github</p>
+        </section>
+      </a>
+
+      <footer></footer>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
