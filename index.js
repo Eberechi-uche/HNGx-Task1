@@ -28,7 +28,7 @@ function updateCurrentTime() {
     daytimeCard.classList.add("morning");
     timeElement.innerHTML = formatTime.replace(
       "GMT+0100 (West Africa Standard Time)",
-      "Good Afternoon! "
+      "Good Morning! "
     );
   } else if (getHour >= 12 && getHour <= 17) {
     daytimeIcon.innerHTML = daytime[1];
