@@ -17,11 +17,14 @@ dayElement.innerHTML = days[currentDay];
 const daytimeIcon = document.getElementById("daytime-icon");
 const daytimeCard = document.getElementById("daytime-card");
 const timeElement = document.getElementById("time");
+const milliSecsElement = document.getElementById("milli-seconds");
 
 function updateCurrentTime() {
   const time = new Date();
+  const milliseconds = Date.now();
   const getHour = time.getHours();
   const formatTime = time.toTimeString();
+  milliSecsElement.innerHTML = milliseconds;
 
   if (getHour >= 0 && getHour <= 11) {
     daytimeIcon.innerHTML = daytime[0];
