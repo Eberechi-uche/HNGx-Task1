@@ -50,4 +50,4 @@ function updateCurrentTime() {
   }
 }
 updateCurrentTime();
-setInterval(updateCurrentTime, 10000);
+setInterval(updateCurrentTime, 1000);
