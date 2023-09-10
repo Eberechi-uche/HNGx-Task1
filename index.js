@@ -19,12 +19,16 @@ const daytimeCard = document.getElementById("daytime-card");
 const timeElement = document.getElementById("time");
 const milliSecsElement = document.getElementById("milli-seconds");
 
+function updateMilliSecond() {
+  const milliseconds = Date.now();
+  milliSecsElement.innerHTML = milliseconds;
+}
+
 function updateCurrentTime() {
   const time = new Date();
-  const milliseconds = Date.now();
+
   const getHour = time.getHours();
   const formatTime = time.toTimeString();
-  milliSecsElement.innerHTML = milliseconds;
 
   if (getHour >= 0 && getHour <= 11) {
     daytimeIcon.innerHTML = daytime[0];
@@ -49,4 +53,6 @@ function updateCurrentTime() {
     );
   }
 }
-setInterval(updateCurrentTime, 1000);
+updateCurrentTime();
+setInterval(updateCurrentTime, 10000);
+setInterval(updateMilliSecond, 1);
