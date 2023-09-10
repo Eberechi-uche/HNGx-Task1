@@ -19,14 +19,10 @@ const daytimeCard = document.getElementById("daytime-card");
 const timeElement = document.getElementById("time");
 const milliSecsElement = document.getElementById("milli-seconds");
 
-function updateMilliSecond() {
-  const milliseconds = Date.now();
-  milliSecsElement.innerHTML = milliseconds;
-}
-
 function updateCurrentTime() {
   const time = new Date();
-
+  const milliseconds = Date.now();
+  milliSecsElement.innerHTML = milliseconds;
   const getHour = time.getHours();
   const formatTime = time.toTimeString();
 
@@ -55,4 +51,3 @@ function updateCurrentTime() {
 }
 updateCurrentTime();
 setInterval(updateCurrentTime, 10000);
-setInterval(updateMilliSecond, 1);
