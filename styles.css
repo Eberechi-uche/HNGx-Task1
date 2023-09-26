@@ -94,6 +94,12 @@ body {
   padding-bottom: 3rem;
 }
 
+/* margins */
+
+.my {
+  margin: 20px 0;
+}
+
 .img-small {
   width: 50px;
   height: 50px;
@@ -117,11 +123,17 @@ body {
   margin-bottom: 10px;
 }
 .large-text {
-  font-size: xx-large;
+  font-size: medium;
   font-weight: 800;
+  text-transform: capitalize;
 }
 .muted-text {
-  color: #49424284;
+  color: rgba(0, 0, 0, 0.08);
+}
+
+.subtext {
+  font-size: smaller;
+  font-weight: 800;
 }
 
 .pointer:hover {
@@ -166,4 +178,27 @@ a {
 }
 .lynnk {
   background-color: #ffbf01;
+}
+/* project stylings */
+
+#lynnk {
+  background-color: #ffbf01;
+}
+#ooyinye {
+  background-color: #2f855a;
+}
+
+#movie-box {
+  background-color: #171717;
+  color: floralwhite;
+}
+
+#hazie {
+  background-color: #c53211;
+}
+
+#hazie:hover {
+  body {
+    background-color: #000;
+  }
 }
