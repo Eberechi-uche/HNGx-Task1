@@ -49,3 +49,4 @@ function updateCurrentTime() {
 }
 updateCurrentTime();
 setInterval(updateCurrentTime, 1000);
+function updateBackground(id) {}

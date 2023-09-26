@@ -62,11 +62,14 @@ h6 {
 }
 
 body {
-  background-color: #fafafa;
   font-family: "Quicksand", sans-serif;
   place-items: center;
   width: 100vw;
   padding: 12px;
+}
+
+.websitebackground {
+  background-color: #fafafa;
 }
 .flex {
   display: flex;
@@ -117,7 +120,7 @@ body {
   align-items: center;
 }
 .icon {
-  font-size: xx-large;
+  font-size: large;
 }
 .flex-end {
   display: flex;
@@ -203,8 +206,13 @@ a {
 .about {
   font-weight: 400;
   font-size: xx-large;
+  color: #9b9898;
 }
 .eberechi {
   color: #c53211;
   font-weight: 900;
+}
+.linkedin {
+  background-color: #0077b5;
+  color: whitesmoke;
 }
