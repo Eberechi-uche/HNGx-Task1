@@ -78,7 +78,7 @@ body {
 }
 .box {
   background-color: #fff;
-  margin: 0 0 30px 0px;
+  margin: 0 0 50px 0px;
   border-radius: 10px;
   padding: 1rem;
   width: 100%;
@@ -92,6 +92,9 @@ body {
 }
 .pb {
   padding-bottom: 3rem;
+}
+.pb-1 {
+  padding-bottom: 1rem;
 }
 
 /* margins */
@@ -128,7 +131,7 @@ body {
   text-transform: capitalize;
 }
 .muted-text {
-  color: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.503);
 }
 
 .subtext {
@@ -201,4 +204,12 @@ a {
   body {
     background-color: #000;
   }
+}
+.about {
+  font-weight: 400;
+  font-size: xx-large;
+}
+.eberechi {
+  color: #c53211;
+  font-weight: 900;
 }
